@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> ePortfolio de Christian GAMO</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        
+        <!-- mobile specific info ... mobile specify windows size to 800/900 whereas device-width is less in general, resulting in small texte etc.- those meta correct this... -->
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+        <!-- end mobile specific info -->
+        
+     
+	 
+	<!-- Inclusion bootstrap + css personnalisé -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	
+	</head>
+	
+	<body>
+	
+	<!-------------------------------------------------- Entête ---------------------------------------------------->
+	
+	<div class="jumbotron jumbotron-fluid bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+                   <img class="img-fluid" src="assets/images/logo.png" alt="logo">
+				   
+                </div>  
+				<div class="col-md-6">
+					<h1 class="display-3">Christian GAMO</h1>
+					<hr class="my-4">
+					<p class="lead">Etudiant en DUT informatique 1ère année à l'IUT Paris Descartes</p>   
+				</div> 	
+			</div>
+		</div>
+	</div>
+	
+	<!-------------------------------------------------- Fin Entête ---------------------------------------------------->
+	
+	
+	
+	<!-------------------------------------------------- Navbar (Menu) -------------------------------------------------->
+	
+	<nav class="navbar navbar-expand-md navbar-custom navbar-dark sticky-top py-0">
+		 <a class="navbar-brand" href="#">
+          <img class ="img-fluid" src="assets/images/logo_descartes.png" alt="logo-navbar">
+        </a>
+		
+		<ul class="navbar-nav mx-auto text-center">
+	
+			<li class="nav-item">
+				<a class="nav-link" href="accueil.html">Accueil<span class="sr-only"></span></a>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link active" href="compétences.html">Compétences<span class="sr-only"></span></a>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link" href="expériences.html">Expériences</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="loisirs.html" id="navbardrop" data-toggle="dropdown">
+					Loisirs
+				</a>
+				<div class="dropdown-menu m-0">
+					<a class="dropdown-item" href="loisirs.html?#section4">Mon manga préféré</a>
+					<a class="dropdown-item" href="loisirs.html?#section5">Mon jeu vidéo préféré</a>
+					<a class="dropdown-item" href="loisirs.html?#section6">Un petit concert de piano</a>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	
+	<!-------------------------------------------------- Fin Navbar (Menu) -------------------------------------------------->
+	
+	
+	
+	<!-------------------------------------------------- Entête hero ---------------------------------------------------->
+	<div id= "hero2" class="hero-image">
+		<div class="hero-text">
+			<h1>Découvrez mes compétences</h1>
+			<p>Un aperçu de ce que je peux faire</p>
+		</div>
+	</div>
+	<!-------------------------------------------------- Fin Entête hero ---------------------------------------------------->
+	
+	
+	
+	<!---------------------------------------------------- Début page ---------------------------------------------------->
+	<div id="page">
+		<section id ="section1" class="container">	
+			<div class ="row">
+				<h1 class="titre">Mes diplômes</h1>
+			</div>
+			
+			<article id ="article1">
+				<div class ="row">
+
+					<div class="col">
+						<figure class="figure text-center">
+							<div class="img-container">
+								<img src="assets/images/bac.jpg" class="figure-img" alt="bac">
+								<a href="assets/images/bac.jpg" target="_blank"> <div class="image-overlay"> </div> </a>
+							</div>	
+							<figcaption class="figure-caption"><br>Mon diplôme du Baccalauréat</figcaption>
+						</figure>
+					</div>
+						
+					<div class="col">
+						<figure class="figure text-center">
+							<div class="img-container">
+								<img src="assets/images/certif.jpg" class="figure-img " alt="certif">
+								<a href="assets/images/certif.jpg" target="_blank"> <div class="image-overlay"></div> </a>
+							</div>	
+							<figcaption class="figure-caption"><br>Mon certificat Anglais C1</figcaption>
+						</figure>
+					</div>
+			
+				</div>
+			</article>
+		</section>
+		
+		
+
+		
+		<section id ="section2" class="container">	
+			<div class ="row">
+				<h1 class="titre">Mes compétences en langages de programmation</h1>
+			</div>
+			<article id ="article2">
+				<div class ="row">
+					<table class="table table-hover table-bordered">
+						<thead>
+							<tr>
+								<th scope="col">Langage</th>
+								<th scope="col">Expérience</th>
+								<th scope="col">Niveau</th>
+							</tr>
+						</thead>
+						
+						<tbody>
+							<tr>
+								<td class="havetooltip">C<span>C est un langage de programmation impératif généraliste, de bas niveau</span>  </td>
+								<td class="havetooltip">Projet d'IAP <span>Consistait à créer un programme qui enregistrait des équipes, leurs temps, et à établir un classement</span>  </td>
+								<td class="havetooltip">Bon<span>Plutôt doué avec les boucles</span>  </td>
+							</tr>
+							<tr>
+								<td class="havetooltip">Python<span>Plutôt doué avec les boucles</span>  </td>
+								<td class="havetooltip">Projet de BAC d'ISN de fin d'année<span>Consistait à créer un jeu basé sur le célèbre Piano Tiles</span>  </td>
+								<td class="havetooltip">Bon<span>Peut programmer un menu de jeu pygame</span>  </td>
+							</tr>
+							<tr>
+								<td class="havetooltip">C++<span>C++ est un langage de programmation compilé permettant la programmation sous de multiples paradigmes.</span>	</td>
+								<td>Cours et travaux pratiques</td>
+								<td class="havetooltip">Moyen<span>Manque d'expérience</span>  </td>
+							</tr>
+							
+						</tbody>
+					</table>
+				</div>
+			</article>
+		</section>
+	</div>	
+	
+	
+	<!---------------------------------------------------- Fin page ---------------------------------------------------->	
+	
+	
+	<!---------------------------------------------------- Footer ---------------------------------------------------->
+	
+	<footer id="footer1" class="page-footer font-small pt-4">
+
+	  <div class="container">
+		<ul class="list-unstyled list-inline text-center py-2">
+		  <li class="list-inline-item">
+			<h5 class="mb-1">Pour me contacter :</h5>
+		  </li>
+		  <li class="list-inline-item">
+			<a href="contact.html" class="btn btn-secondary"> Appuyez ici !</a>
+		  </li>
+		</ul>
+	  </div>
+
+	  <div id="footer2" class="page-footer text-center py-3">
+		<p>Site créé pour le projet de CDIN en HTML et CSS</p>
+	  </div>
+	</footer>
+	
+	<!---------------------------------------------------- Footer ---------------------------------------------------->
+
+
+
+	</body>
+	
+					
+
+		
+		
+		
+
+
+
+
+
+
